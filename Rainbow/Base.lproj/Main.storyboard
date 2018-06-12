@@ -29,7 +29,7 @@
                                         </constraints>
                                         <state key="normal" title="Red"/>
                                         <connections>
-                                            <action selector="ToggleRed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OYd-HY-MRc"/>
+                                            <action selector="toggleColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H89-Bp-aSp"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q7P-vT-VMs">
@@ -40,7 +40,7 @@
                                         </constraints>
                                         <state key="normal" title="Magenta"/>
                                         <connections>
-                                            <action selector="ToggleMagenta:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c2l-T5-Knm"/>
+                                            <action selector="toggleColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oMO-au-q79"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dKW-g0-fbD">
@@ -51,7 +51,7 @@
                                         </constraints>
                                         <state key="normal" title="Blue"/>
                                         <connections>
-                                            <action selector="ToggleBlue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lPN-cl-9Mx"/>
+                                            <action selector="toggleColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X05-Xr-N5P"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hMq-er-5rp">
@@ -62,7 +62,7 @@
                                         </constraints>
                                         <state key="normal" title="Cyan"/>
                                         <connections>
-                                            <action selector="ToggleCyan:" destination="BYZ-38-t0r" eventType="touchUpInside" id="seq-tB-NqF"/>
+                                            <action selector="toggleColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AhX-ox-Q30"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qhy-kk-trc">
@@ -73,7 +73,7 @@
                                         </constraints>
                                         <state key="normal" title="Green"/>
                                         <connections>
-                                            <action selector="ToggleGreen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="clR-N9-Bd7"/>
+                                            <action selector="toggleColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="18A-zv-fKj"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NOP-tp-Fp3">
@@ -84,7 +84,7 @@
                                         </constraints>
                                         <state key="normal" title="Yellow"/>
                                         <connections>
-                                            <action selector="ToggleYellow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KrV-bh-y14"/>
+                                            <action selector="toggleColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="plV-3H-uva"/>
                                         </connections>
                                     </button>
                                 </subviews>
